@@ -4,27 +4,35 @@ In this assignment, you will learn to use the developer's tool to inspect the el
 
 1. What is the right margin of the first element? 
 ```
-Your answer here
+50px. 
 ```
 
 2. What is the top padding of the second element?
 ```
-Your answer here
+100px. 
 ```
 
 3. What is the class name of the third element and the content of the css?
 ```
-Your answer here
+The class name is 'elementThree'.
+The CSS element content is:
+.elementThree {
+  padding: 10px;
+  background-color: aquamarine;
+  text-shadow: 1px 1px white;
+  border: gray solid 2px;
+  border-radius: 10px;
+}
 ```
 
 4. What is the css selector of the fourth element?
 ```
-Your answer here
+The CSS selector of the fourth element is 'div:nth-child(6)'. 
 ```
 
 5. What is the code you use to keep the blue box within the purple?
 ```
-Your answer here
+Add the 'box-sizing' property to the '.child' class CSS element, setting its value to 'border-box', by adding this line 'box-sizing: border-box;' into the '.child' class CSS element. 
 ```
 
 > hint: you should apply box-sizing property to the `.child` class. Make the changes on the developer's tool to see immediate UI change.
